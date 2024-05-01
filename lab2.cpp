@@ -28,9 +28,19 @@ int main(){
     cout<<"Relation:\n";
     for(int a:A){
         for(int b:B){
-            cout<< (a>b?1:0)<<" ";
+            if(a>b){
+            cout<<"("<<a<<","<<b<<")";
+            }
+        }
+    }
+
+      //Matrix
+    cout<<endl<<"Matrix:\n";
+    for(int a:A){
+        for(int b:B){
+            cout<<(a>b?1:0)<< " ";
         }
         cout<<endl;
-    }
+    }  
   return 0;  
 }
