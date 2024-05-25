@@ -44,7 +44,7 @@ int main() {
         result = result + term * diff[0][i];
     }
 
-    cout << "Interpolated value at f(" << e <<")" << " is " << result << endl;
+    cout << "Estimated f(" << e <<")" << " is " << result << endl;
 
     return 0;
 }
