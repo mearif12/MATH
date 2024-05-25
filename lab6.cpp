@@ -42,7 +42,7 @@ int main() {
         result = result + div_diff[0][i] * term;
     }
 
-    cout << "The interpolated value at f(" << e <<")"<< " is " << result << endl;
+    cout << "Estimated f(" << e <<")"<< " is " << result << endl;
 
   return 0;
 }
