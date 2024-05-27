@@ -1,4 +1,5 @@
 #include <iostream>
+#include <algorithm>
 using namespace std;
 
 #define INF 999
@@ -9,7 +10,7 @@ int main() {
        
 //creating and printing adjacency matrix
     int graph[nV][nV];
-    cout << "Enter the adjacency matrix (use " << INF << " for infinity):\n";
+    cout<<"Enter the adjacency matrix (use " << INF << " for infinity):\n";
     for (int i = 0; i < nV; i++) {
         for (int j = 0; j < nV; j++) {
             cin >> graph[i][j];
